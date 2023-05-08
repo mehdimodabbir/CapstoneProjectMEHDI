@@ -1,0 +1,208 @@
+{
+	"id": "ee77bf4b-93bb-4eb8-b697-124f1bdf2609",
+	"name": "GoRest",
+	"timestamp": "2023-05-08T16:49:38.327Z",
+	"collection_id": "26491069-f7861b3f-87f2-4021-b4f8-bdb0f0b4e13f",
+	"folder_id": 0,
+	"environment_id": "26491069-9947d44c-0228-40fc-bef9-baa28a9422f7",
+	"totalPass": 6,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-05-08T16:49:34.696Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "8d4df691-00fd-4cf6-862c-fc0b6294e120",
+			"name": "Resource Created",
+			"url": "https://gorest.co.in//public/v2/users/",
+			"time": 386,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				386
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "33e762b9-b70a-4935-ba21-edfaeb59fc66",
+			"name": "Resource Located",
+			"url": "https://gorest.co.in//public/v2/users/1475502",
+			"time": 351,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				351
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "4680916f-e930-431e-80b8-dffa29fa7999",
+			"name": "Resource updated",
+			"url": "https://gorest.co.in//public/v2/users/1475502",
+			"time": 372,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				372
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a011a531-017d-47a9-b7a7-1c43de5d1bc9",
+			"name": "Resource specific part Updated",
+			"url": "https://gorest.co.in//public/v2/users/1475502",
+			"time": 362,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				362
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "bd636991-dddc-4128-92a8-d5960fdf3af9",
+			"name": "Resource Getted",
+			"url": "https://gorest.co.in//public/v2/users/1475502",
+			"time": 345,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				345
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "6c542986-c2c4-4bf6-958d-152d3806c65a",
+			"name": "Resource Deleted",
+			"url": "https://gorest.co.in//public/v2/users/1475502",
+			"time": 835,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				835
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2651,
+	"collection": {
+		"requests": [
+			{
+				"id": "8d4df691-00fd-4cf6-862c-fc0b6294e120",
+				"method": "POST"
+			},
+			{
+				"id": "33e762b9-b70a-4935-ba21-edfaeb59fc66",
+				"method": "GET"
+			},
+			{
+				"id": "4680916f-e930-431e-80b8-dffa29fa7999",
+				"method": "PUT"
+			},
+			{
+				"id": "a011a531-017d-47a9-b7a7-1c43de5d1bc9",
+				"method": "PATCH"
+			},
+			{
+				"id": "bd636991-dddc-4128-92a8-d5960fdf3af9",
+				"method": "GET"
+			},
+			{
+				"id": "6c542986-c2c4-4bf6-958d-152d3806c65a",
+				"method": "DELETE"
+			}
+		]
+	}
+}
