@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-07T23:45:33 EDT" name="Default suite" finished-at="2023-05-07T23:45:38 EDT" duration-ms="4837">
+    <groups>
+    </groups>
+    <test started-at="2023-05-07T23:45:33 EDT" name="Default test" finished-at="2023-05-07T23:45:38 EDT" duration-ms="4837">
+      <class name="goRestProject.Create_Update_Delete_user">
+        <test-method is-config="true" signature="CreatePayLoad()[pri:0, instance:goRestProject.Create_Update_Delete_user@ba54932]" started-at="2023-05-07T23:45:33 EDT" name="CreatePayLoad" finished-at="2023-05-07T23:45:34 EDT" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatePayLoad -->
+        <test-method signature="CreatUser()[pri:0, instance:goRestProject.Create_Update_Delete_user@ba54932]" started-at="2023-05-07T23:45:34 EDT" name="CreatUser" finished-at="2023-05-07T23:45:37 EDT" duration-ms="2823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatUser -->
+        <test-method signature="updateResurce()[pri:1, instance:goRestProject.Create_Update_Delete_user@ba54932]" started-at="2023-05-07T23:45:37 EDT" name="updateResurce" finished-at="2023-05-07T23:45:37 EDT" duration-ms="475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResurce -->
+        <test-method signature="deleteUser()[pri:2, instance:goRestProject.Create_Update_Delete_user@ba54932]" started-at="2023-05-07T23:45:37 EDT" name="deleteUser" finished-at="2023-05-07T23:45:38 EDT" duration-ms="970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- goRestProject.Create_Update_Delete_user -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
